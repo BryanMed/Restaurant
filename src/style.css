@@ -95,7 +95,7 @@ main>div>p:nth-child(1){
 }
 
 .profile-pic{
-  max-width: 400px;
+  max-width: 350px;
   border-radius: 50%;
   margin: 1.5rem;
 }
@@ -120,4 +120,48 @@ footer a{
 
 footer a:hover{
   text-decoration: underline;
+}
+
+.menu{
+  background-color: rgba(0, 0, 0, 0.7);  
+  padding: 4rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card{
+  border: 1px solid #FFF;
+}
+
+.card-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-body h4{
+  font-family: 'Cursive';
+  font-size: 1.5rem;
+}
+
+.card img{
+  width: 250px;
+  height: 250px;
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1rem;  
 }

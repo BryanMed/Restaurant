@@ -1,3 +1,4 @@
+import { menuContent } from './menu';
 import './style.css';
 import chef from './chefPP.jpg';
 
@@ -91,3 +92,4 @@ function footerContent(){
 headerContent();
 mainContent();
 footerContent();  
+menuContent();
