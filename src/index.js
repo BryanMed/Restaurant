@@ -1,5 +1,5 @@
 import './style.css';
-import chef from './chef.jpg';
+import chef from './chefPP.jpg';
 
 const content = document.querySelector('#content');
 
@@ -19,9 +19,8 @@ function headerContent(){
   const a2 = document.createElement('a');
   const a3 = document.createElement('a');
 
-
   divTitle.classList.add('title');
-  h1.textContent = 'Bryarante';
+  h1.textContent = 'Bryantaurante';
   divTitle.appendChild(h1);
   header.appendChild(divTitle);
 
@@ -32,7 +31,6 @@ function headerContent(){
   a1.href = 'http://#';
   a2.href = 'http://#';
   a3.href = 'http://#';
-
   
   li1.appendChild(a1);
   li2.appendChild(a2);
@@ -44,8 +42,8 @@ function headerContent(){
 
   navigation.appendChild(ul);
 
+  header.appendChild(navigation);
   content.appendChild(header);
-  content.appendChild(navigation);
 }
 
 function mainContent(){
@@ -56,21 +54,18 @@ function mainContent(){
   const p1 = document.createElement('p');
   const p2 = document.createElement('p');
   const p3 = document.createElement('p');
-
-  // const chefImg = new Image();
-  // chefImg.src = chef;
-
-  const testImg = document.createElement('img');
-  testImg.src = chef;
   
-  p1.textContent = 'Best Bryan\'s food in your country';
+  const imgProfile = document.createElement('img');
+  imgProfile.src = chef;
+  imgProfile.classList.add('profile-pic');
+
+  p1.textContent = 'Comidini riquini';
   p2.textContent = 'Made with passion since 1995';
   p3.textContent = 'Order online or visit us!';
 
   div.appendChild(p1);
   div.appendChild(p2);
-  div.appendChild(testImg);
-  // div.appendChild(chefImg);
+  div.appendChild(imgProfile);
   div.appendChild(p3);
   main.appendChild(div);
   content.appendChild(main);
