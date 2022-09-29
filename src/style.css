@@ -165,3 +165,37 @@ footer a:hover{
   background-color: rgba(0, 0, 0, 0.75);
   padding: 1rem;  
 }
+
+.contact-container{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-container h4{
+  font-family: 'Cursive';
+  font-size: 3rem;
+}
+
+.contact-container div *{
+  padding: 0.5rem;
+}
+
+.contact-container img{
+  width: 540px;
+  height: auto;
+}
+
+.contact-container div a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.contact-container div a:hover{
+  text-decoration: underline;
+
+}

@@ -1,4 +1,5 @@
 import { menuContent } from './menu';
+import { contactContent } from './contact';
 import './style.css';
 import chef from './chefPP.jpg';
 
@@ -93,3 +94,4 @@ headerContent();
 mainContent();
 footerContent();  
 menuContent();
+contactContent();

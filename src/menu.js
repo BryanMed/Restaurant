@@ -84,15 +84,10 @@ function menuContent(){
     let dishCard = createCard(dish.img, dish.name, dish.description);
     container.appendChild(dishCard);
   });
-
-
-
-
+  
   menu.appendChild(h2);
   menu.appendChild(container);
   content.appendChild(menu);
-
-
 }
 
 export{menuContent};
